@@ -1,3 +1,7 @@
+d_moritz_pubfree_main:
+    resource: "@DMoritzPubfreeMainBundle/Resources/config/routing.xml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
