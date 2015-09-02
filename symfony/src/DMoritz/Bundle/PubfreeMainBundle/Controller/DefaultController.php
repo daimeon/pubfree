@@ -8,6 +8,7 @@ class DefaultController extends Controller
 {
     public function indexAction($name)
     {
+        var_dump('In here');die;
         return $this->render('DMoritzPubfreeMainBundle:Default:index.html.twig', array('name' => $name));
     }
 }
